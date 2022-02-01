@@ -2,13 +2,16 @@
 
 {% block content %}
 
-<!--
+
 <style>
 body {
   background-image: url('https://raw.githubusercontent.com/abhijeetdaspublic/product-recommendation-web/main/templates/homepage.jpg');
 }
+
+.containermod {
+        background-color: yellow;
+    }
 </style>
--->
 
 <br>
 
@@ -37,7 +40,7 @@ body {
   </div>
 </div>
 
-<div class="container">
+<div class="containermod">
   {% include 'mostpopulartable.html' %}
   {% include 'topselltable.html' %}
 </div>
